@@ -29,3 +29,6 @@ def transpage(request):
         else:
             translated_text+=translate_consonant(word)+' '
     return render(request,'tpage.html',{'original':text, 'translation': translated_text})
+
+def aboutpage(request):
+	return render(request,'about.html')

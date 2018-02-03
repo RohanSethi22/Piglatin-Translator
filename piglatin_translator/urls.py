@@ -21,5 +21,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('hello/', views.hellopage),
     path('', views.homepage, name='home'),
-    path('translate/', views.transpage, name='translate_page')
+    path('translate/', views.transpage, name='translate_page'),
+    path('about/', views.aboutpage, name='about')
 ]
